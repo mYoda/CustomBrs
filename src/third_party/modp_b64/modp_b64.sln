@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modp_b64", "modp_b64.vcxproj", "{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modp_b64_win64", "modp_b64_win64.vcxproj", "{B96511DE-002A-2BB6-BE29-02CEE45B2784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Release|x64.ActiveCfg = Release|x64
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Release|x64.Build.0 = Release|x64
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Debug|Win32.Build.0 = Debug|Win32
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Debug|x64.ActiveCfg = Debug|x64
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Debug|x64.Build.0 = Debug|x64
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Release|Win32.ActiveCfg = Release|Win32
+		{7E21472D-EE38-2E6A-A6C3-FA938903A3E4}.Release|Win32.Build.0 = Release|Win32
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Release|x64.ActiveCfg = Release|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Release|x64.Build.0 = Release|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Debug|Win32.ActiveCfg = Debug|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Debug|Win32.Build.0 = Debug|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Debug|x64.ActiveCfg = Debug|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Debug|x64.Build.0 = Debug|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Release|Win32.ActiveCfg = Release|x64
+		{B96511DE-002A-2BB6-BE29-02CEE45B2784}.Release|Win32.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

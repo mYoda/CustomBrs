@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IAccessible2Proxy", "IAccessible2Proxy.vcxproj", "{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iaccessible2", "iaccessible2.vcxproj", "{0B2435DF-8966-661B-EA5F-D719FF45A44E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Release|x64.ActiveCfg = Release|x64
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Release|x64.Build.0 = Release|x64
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Debug|Win32.Build.0 = Debug|Win32
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Debug|x64.ActiveCfg = Debug|x64
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Debug|x64.Build.0 = Debug|x64
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Release|Win32.ActiveCfg = Release|Win32
+		{0B2435DF-8966-661B-EA5F-D719FF45A44E}.Release|Win32.Build.0 = Release|Win32
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Release|x64.ActiveCfg = Release|x64
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Release|x64.Build.0 = Release|x64
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Debug|Win32.Build.0 = Debug|Win32
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Debug|x64.ActiveCfg = Debug|x64
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Debug|x64.Build.0 = Debug|x64
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Release|Win32.ActiveCfg = Release|Win32
+		{2E2C165B-62E0-A4E5-8DE8-1E7060AB8364}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

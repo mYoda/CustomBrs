@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng.vcxproj", "{005E176D-FEA0-8327-EC20-4B6CE71BD753}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\zlib\zlib.vcxproj", "{487496A6-0D23-6CC9-4137-308EEA9B1B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Release|x64.ActiveCfg = Release|x64
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Release|x64.Build.0 = Release|x64
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Debug|Win32.ActiveCfg = Debug|Win32
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Debug|Win32.Build.0 = Debug|Win32
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Debug|x64.ActiveCfg = Debug|x64
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Debug|x64.Build.0 = Debug|x64
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Release|Win32.ActiveCfg = Release|Win32
+		{005E176D-FEA0-8327-EC20-4B6CE71BD753}.Release|Win32.Build.0 = Release|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|x64.ActiveCfg = Release|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|x64.Build.0 = Release|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|Win32.Build.0 = Debug|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|x64.ActiveCfg = Debug|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|x64.Build.0 = Debug|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|Win32.ActiveCfg = Release|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

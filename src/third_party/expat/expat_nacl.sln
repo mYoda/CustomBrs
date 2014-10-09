@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expat_nacl", "expat_nacl.vcxproj", "{024D881A-8B60-A99C-EE87-629FF57CD37F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Release|x64.ActiveCfg = Release|x64
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Release|x64.Build.0 = Release|x64
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Debug|Win32.Build.0 = Debug|Win32
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Debug|x64.ActiveCfg = Debug|x64
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Debug|x64.Build.0 = Debug|x64
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Release|Win32.ActiveCfg = Release|Win32
+		{024D881A-8B60-A99C-EE87-629FF57CD37F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

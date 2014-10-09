@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nacl_perf_counter", "nacl_perf_counter.vcxproj", "{2E721807-0684-528F-1789-D6774858C5F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nacl_perf_counter64", "nacl_perf_counter64.vcxproj", "{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E721807-0684-528F-1789-D6774858C5F2}.Release|x64.ActiveCfg = Release|x64
+		{2E721807-0684-528F-1789-D6774858C5F2}.Release|x64.Build.0 = Release|x64
+		{2E721807-0684-528F-1789-D6774858C5F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E721807-0684-528F-1789-D6774858C5F2}.Debug|Win32.Build.0 = Debug|Win32
+		{2E721807-0684-528F-1789-D6774858C5F2}.Debug|x64.ActiveCfg = Debug|x64
+		{2E721807-0684-528F-1789-D6774858C5F2}.Debug|x64.Build.0 = Debug|x64
+		{2E721807-0684-528F-1789-D6774858C5F2}.Release|Win32.ActiveCfg = Release|Win32
+		{2E721807-0684-528F-1789-D6774858C5F2}.Release|Win32.Build.0 = Release|Win32
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Release|x64.ActiveCfg = Release|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Release|x64.Build.0 = Release|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Debug|Win32.ActiveCfg = Debug|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Debug|Win32.Build.0 = Debug|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Debug|x64.ActiveCfg = Debug|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Debug|x64.Build.0 = Debug|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Release|Win32.ActiveCfg = Release|x64
+		{D5E6BDC7-5E35-2DCC-6944-4F8460DCC10E}.Release|Win32.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

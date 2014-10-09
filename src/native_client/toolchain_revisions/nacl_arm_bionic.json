@@ -1,0 +1,19 @@
+{
+  "package_name": "nacl_arm_bionic",
+  "package_targets": {
+    "linux_x86": {
+      "archives": [
+        {
+          "extract_dir": "",
+          "hash": "507de10f3dbe141a02205e60295619339d6d317f",
+          "name": "naclsdk_linux_arm_bionic.tgz",
+          "tar_src_dir": "linux_arm_bionic",
+          "url": "https://storage.googleapis.com/nativeclient-archive2/toolchain/13174/naclsdk_linux_arm_bionic.tgz"
+        }
+      ],
+      "version": 1
+    }
+  },
+  "revision": 13174,
+  "revision_hash": "9fb0a5cb63ff0d20e5f7618152ccfc8744da12e7"
+}

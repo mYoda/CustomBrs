@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cld_2", "cld_2.vcxproj", "{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cld_2_dynamic_data_tool", "cld_2_dynamic_data_tool.vcxproj", "{E341BD0D-61A3-CFD4-4618-44F8562854CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Release|x64.ActiveCfg = Release|x64
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Release|x64.Build.0 = Release|x64
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Debug|Win32.Build.0 = Debug|Win32
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Debug|x64.ActiveCfg = Debug|x64
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Debug|x64.Build.0 = Debug|x64
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Release|Win32.ActiveCfg = Release|Win32
+		{71C3C9B6-A944-E014-3F6B-F4AFA01105D5}.Release|Win32.Build.0 = Release|Win32
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Release|x64.ActiveCfg = Release|x64
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Release|x64.Build.0 = Release|x64
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Debug|Win32.Build.0 = Debug|Win32
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Debug|x64.ActiveCfg = Debug|x64
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Debug|x64.Build.0 = Debug|x64
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Release|Win32.ActiveCfg = Release|Win32
+		{E341BD0D-61A3-CFD4-4618-44F8562854CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minizip", "minizip.vcxproj", "{F5EDF4D1-5A50-C212-8CDA-C201556D4317}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib.vcxproj", "{487496A6-0D23-6CC9-4137-308EEA9B1B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|x64.ActiveCfg = Release|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|x64.Build.0 = Release|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|Win32.Build.0 = Debug|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|x64.ActiveCfg = Debug|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Debug|x64.Build.0 = Debug|x64
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|Win32.ActiveCfg = Release|Win32
+		{487496A6-0D23-6CC9-4137-308EEA9B1B45}.Release|Win32.Build.0 = Release|Win32
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Release|x64.ActiveCfg = Release|x64
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Release|x64.Build.0 = Release|x64
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Debug|Win32.Build.0 = Debug|Win32
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Debug|x64.ActiveCfg = Debug|x64
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Debug|x64.Build.0 = Debug|x64
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Release|Win32.ActiveCfg = Release|Win32
+		{F5EDF4D1-5A50-C212-8CDA-C201556D4317}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

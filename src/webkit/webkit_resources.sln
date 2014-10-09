@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webkit_resources", "webkit_resources.vcxproj", "{87809513-381A-548B-01CB-43C99D07D7E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webkit_strings", "webkit_strings.vcxproj", "{394E8996-CA31-5C10-5D57-0F8D32BA531B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Release|x64.ActiveCfg = Release|x64
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Release|x64.Build.0 = Release|x64
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Debug|Win32.Build.0 = Debug|Win32
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Debug|x64.ActiveCfg = Debug|x64
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Debug|x64.Build.0 = Debug|x64
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Release|Win32.ActiveCfg = Release|Win32
+		{394E8996-CA31-5C10-5D57-0F8D32BA531B}.Release|Win32.Build.0 = Release|Win32
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Release|x64.ActiveCfg = Release|x64
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Release|x64.Build.0 = Release|x64
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Debug|Win32.Build.0 = Debug|Win32
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Debug|x64.ActiveCfg = Debug|x64
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Debug|x64.Build.0 = Debug|x64
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Release|Win32.ActiveCfg = Release|Win32
+		{87809513-381A-548B-01CB-43C99D07D7E6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

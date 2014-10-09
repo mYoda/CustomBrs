@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "py_proto", "..\protobuf\py_proto.vcxproj", "{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "safe_browsing", "safe_browsing.vcxproj", "{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Release|x64.ActiveCfg = Release|x64
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Release|x64.Build.0 = Release|x64
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Debug|Win32.Build.0 = Debug|Win32
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Debug|x64.ActiveCfg = Debug|x64
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Debug|x64.Build.0 = Debug|x64
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Release|Win32.ActiveCfg = Release|Win32
+		{BEC0390A-45D2-2870-9CB6-6F902F5E7B2D}.Release|Win32.Build.0 = Release|Win32
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Release|x64.ActiveCfg = Release|x64
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Release|x64.Build.0 = Release|x64
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Debug|Win32.Build.0 = Debug|Win32
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Debug|x64.ActiveCfg = Debug|x64
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Debug|x64.Build.0 = Debug|x64
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Release|Win32.ActiveCfg = Release|Win32
+		{ECEE980C-F0FF-F7D7-C23B-DB3D991E9069}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

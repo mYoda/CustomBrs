@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flapper_binaries", "flapper_binaries.vcxproj", "{7349D9BA-05DF-0952-E4D8-271DDF685D30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flapper_version_h", "flapper_version_h.vcxproj", "{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Release|x64.ActiveCfg = Release|x64
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Release|x64.Build.0 = Release|x64
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Debug|Win32.Build.0 = Debug|Win32
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Debug|x64.ActiveCfg = Debug|x64
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Debug|x64.Build.0 = Debug|x64
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Release|Win32.ActiveCfg = Release|Win32
+		{6D1FFBDD-B8D7-5AAD-CD1F-AB75BE262715}.Release|Win32.Build.0 = Release|Win32
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Release|x64.ActiveCfg = Release|x64
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Release|x64.Build.0 = Release|x64
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Debug|Win32.Build.0 = Debug|Win32
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Debug|x64.ActiveCfg = Debug|x64
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Debug|x64.Build.0 = Debug|x64
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Release|Win32.ActiveCfg = Release|Win32
+		{7349D9BA-05DF-0952-E4D8-271DDF685D30}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

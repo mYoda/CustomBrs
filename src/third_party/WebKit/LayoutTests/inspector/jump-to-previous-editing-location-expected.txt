@@ -1,0 +1,184 @@
+Tests that jumping to previous location works as intended.
+
+
+Running: testSimpleMovements
+<Initial position> line: 0 column: 0 [example-fileset-for-test.js]
+<Mouse click (4, 7)> line: 4 column: 7 [example-fileset-for-test.js]
+<Typed in some text> line: 5 column: 26 [example-fileset-for-test.js]
+<Rolled back> line: 0 column: 0 [example-fileset-for-test.js]
+<Typed in some text> line: 2 column: 0 [example-fileset-for-test.js]
+<Rolled over> line: 7 column: 26 [example-fileset-for-test.js]
+
+Running: testSequentialJumps
+<Mouse click (10, 3)> line: 10 column: 3 [example-fileset-for-test.js]
+<Mouse click (11, 4)> line: 11 column: 4 [example-fileset-for-test.js]
+<Mouse click (12, 5)> line: 12 column: 5 [example-fileset-for-test.js]
+<Mouse click (13, 6)> line: 13 column: 6 [example-fileset-for-test.js]
+<Rolled back> line: 12 column: 5 [example-fileset-for-test.js]
+<Rolled back> line: 11 column: 4 [example-fileset-for-test.js]
+<Rolled back> line: 10 column: 3 [example-fileset-for-test.js]
+<Rolled back> line: 7 column: 26 [example-fileset-for-test.js]
+<Rolled over> line: 10 column: 3 [example-fileset-for-test.js]
+<Rolled over> line: 11 column: 4 [example-fileset-for-test.js]
+<Rolled over> line: 12 column: 5 [example-fileset-for-test.js]
+<Rolled over> line: 13 column: 6 [example-fileset-for-test.js]
+
+Running: testDeletePreviousJumpLocations
+<Removed lines from 9 to 15> line: 9 column: 0 [example-fileset-for-test.js]
+<Rolled back> line: 7 column: 26 [example-fileset-for-test.js]
+<Rolled over> line: 9 column: 0 [example-fileset-for-test.js]
+
+Running: testDeleteNextJumpLocations
+<Mouse click (10, 3)> line: 10 column: 3 [example-fileset-for-test.js]
+<Mouse click (11, 4)> line: 11 column: 4 [example-fileset-for-test.js]
+<Mouse click (12, 5)> line: 12 column: 5 [example-fileset-for-test.js]
+<Mouse click (13, 6)> line: 13 column: 6 [example-fileset-for-test.js]
+<Rolled back 4 times> line: 9 column: 0 [example-fileset-for-test.js]
+<Removed lines from 9 to 11> line: 9 column: 0 [example-fileset-for-test.js]
+<Rolled over> line: 9 column: 4 [example-fileset-for-test.js]
+
+Running: testCrossFileJump
+<Opened workspace-test.js> line: 0 column: 0 [workspace-test.js]
+<Mouse click (10, 1)> line: 10 column: 1 [workspace-test.js]
+<Mouse click (11, 1)> line: 11 column: 1 [workspace-test.js]
+<Rolled back> line: 10 column: 1 [workspace-test.js]
+<Rolled back> line: 0 column: 0 [workspace-test.js]
+<Rolled back> line: 9 column: 4 [example-fileset-for-test.js]
+<Rolled back> line: 9 column: 0 [example-fileset-for-test.js]
+<Rolled over> line: 9 column: 4 [example-fileset-for-test.js]
+<Rolled over> line: 0 column: 0 [workspace-test.js]
+<Rolled over> line: 10 column: 1 [workspace-test.js]
+<Rolled over> line: 11 column: 1 [workspace-test.js]
+
+Running: testCloseCrossFile
+executed SimpleHistoryManager.filterOut; activeEntryIndex = 7
+<Close active tab> line: 9 column: 4 [example-fileset-for-test.js]
+<Rolled back> line: 9 column: 0 [example-fileset-for-test.js]
+<Rolled over> line: 9 column: 4 [example-fileset-for-test.js]
+<Rolled over> line: 9 column: 4 [example-fileset-for-test.js]
+<Rolled over> line: 9 column: 4 [example-fileset-for-test.js]
+
+Running: testHistoryDepth
+=== SimpleHistoryManager state before filling history stack ===
+entries count: 8 active entry index: 7
+>entry[7] = {line: 9, column: 4}
+ entry[6] = null
+ entry[5] = {line: 9, column: 0}
+ entry[4] = null
+ entry[3] = null
+ entry[2] = null
+ entry[1] = {line: 7, column: 26}
+ entry[0] = {line: 2, column: 0}
+=== ===
+<Mouse click (10, 7)> line: 10 column: 7 [example-fileset-for-test.js]
+<Mouse click (11, 7)> line: 11 column: 7 [example-fileset-for-test.js]
+<Mouse click (12, 7)> line: 12 column: 7 [example-fileset-for-test.js]
+<Mouse click (13, 7)> line: 13 column: 7 [example-fileset-for-test.js]
+<Mouse click (14, 7)> line: 14 column: 7 [example-fileset-for-test.js]
+<Mouse click (15, 7)> line: 15 column: 7 [example-fileset-for-test.js]
+<Mouse click (16, 7)> line: 16 column: 7 [example-fileset-for-test.js]
+<Mouse click (17, 7)> line: 17 column: 7 [example-fileset-for-test.js]
+<Mouse click (18, 7)> line: 18 column: 7 [example-fileset-for-test.js]
+<Mouse click (19, 7)> line: 19 column: 7 [example-fileset-for-test.js]
+<Mouse click (20, 7)> line: 20 column: 7 [example-fileset-for-test.js]
+<Mouse click (21, 7)> line: 21 column: 7 [example-fileset-for-test.js]
+<Mouse click (22, 7)> line: 22 column: 7 [example-fileset-for-test.js]
+<Mouse click (23, 7)> line: 23 column: 7 [example-fileset-for-test.js]
+<Mouse click (24, 7)> line: 24 column: 7 [example-fileset-for-test.js]
+<Mouse click (25, 7)> line: 25 column: 7 [example-fileset-for-test.js]
+<Mouse click (26, 7)> line: 26 column: 7 [example-fileset-for-test.js]
+<Mouse click (27, 7)> line: 27 column: 7 [example-fileset-for-test.js]
+<Mouse click (28, 7)> line: 28 column: 7 [example-fileset-for-test.js]
+<Mouse click (29, 7)> line: 29 column: 7 [example-fileset-for-test.js]
+=== SimpleHistoryManager state after filling history stack ===
+entries count: 20 active entry index: 19
+>entry[19] = {line: 29, column: 7}
+ entry[18] = {line: 28, column: 7}
+ entry[17] = {line: 27, column: 7}
+ entry[16] = {line: 26, column: 7}
+ entry[15] = {line: 25, column: 7}
+ entry[14] = {line: 24, column: 7}
+ entry[13] = {line: 23, column: 7}
+ entry[12] = {line: 22, column: 7}
+ entry[11] = {line: 21, column: 7}
+ entry[10] = {line: 20, column: 7}
+ entry[9] = {line: 19, column: 7}
+ entry[8] = {line: 18, column: 7}
+ entry[7] = {line: 17, column: 7}
+ entry[6] = {line: 16, column: 7}
+ entry[5] = {line: 15, column: 7}
+ entry[4] = {line: 14, column: 7}
+ entry[3] = {line: 13, column: 7}
+ entry[2] = {line: 12, column: 7}
+ entry[1] = {line: 11, column: 7}
+ entry[0] = {line: 10, column: 7}
+=== ===
+First rollback result: true
+=== SimpleHistoryManager state after first rollback ===
+entries count: 20 active entry index: 18
+ entry[19] = {line: 29, column: 7}
+>entry[18] = {line: 28, column: 7}
+ entry[17] = {line: 27, column: 7}
+ entry[16] = {line: 26, column: 7}
+ entry[15] = {line: 25, column: 7}
+ entry[14] = {line: 24, column: 7}
+ entry[13] = {line: 23, column: 7}
+ entry[12] = {line: 22, column: 7}
+ entry[11] = {line: 21, column: 7}
+ entry[10] = {line: 20, column: 7}
+ entry[9] = {line: 19, column: 7}
+ entry[8] = {line: 18, column: 7}
+ entry[7] = {line: 17, column: 7}
+ entry[6] = {line: 16, column: 7}
+ entry[5] = {line: 15, column: 7}
+ entry[4] = {line: 14, column: 7}
+ entry[3] = {line: 13, column: 7}
+ entry[2] = {line: 12, column: 7}
+ entry[1] = {line: 11, column: 7}
+ entry[0] = {line: 10, column: 7}
+=== ===
+<Rolled back> line: 28 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 27 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 26 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 25 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 24 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 23 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 22 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 21 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 20 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 19 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 18 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 17 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 16 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 15 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 14 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 13 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 12 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 11 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 10 column: 7 [example-fileset-for-test.js]
+<Rolled back> line: 10 column: 7 [example-fileset-for-test.js]
+
+Running: testInFileSearch
+<Before searching> line: 10 column: 7 [example-fileset-for-test.js]
+<After searching> (NOT EMPTY): {"startLine":581,"startColumn":35,"endLine":581,"endColumn":44} [example-fileset-for-test.js]
+<Rolled back> line: 10 column: 7 [example-fileset-for-test.js]
+<Rolled over> line: 581 column: 44 [example-fileset-for-test.js]
+
+Running: testShowAnchorLocation
+<Before switching to other panel> line: 581 column: 44 [example-fileset-for-test.js]
+Selection: {"startLine":10,"startColumn":1,"endLine":10,"endColumn":1}
+<Showed anchor in workspace-test.js with line 333 column 3> line: 10 column: 1 [workspace-test.js]
+<Rolled back> line: 581 column: 44 [example-fileset-for-test.js]
+<Rolled over> line: 10 column: 1 [workspace-test.js]
+
+Running: testShowUISourceCode
+<Initial state> line: 10 column: 1 [workspace-test.js]
+<jump to line 20> line: 20 column: 0 [example-fileset-for-test.js]
+<jump to line 10> line: 10 column: 0 [example-fileset-for-test.js]
+<jump to line 30> line: 30 column: 0 [example-fileset-for-test.js]
+<highlight line 40> line: 40 column: 10 [example-fileset-for-test.js]
+<rollback> line: 30 column: 0 [example-fileset-for-test.js]
+<rollback> line: 10 column: 0 [example-fileset-for-test.js]
+<rollback> line: 20 column: 0 [example-fileset-for-test.js]
+<rollback> line: 10 column: 1 [workspace-test.js]
+

@@ -1,0 +1,7 @@
+{
+  "extract_dir": "",
+  "hash": "161c00d6d555d205b83d2dab7dab6f222cf53d16",
+  "name": "toolchain.tar.bz2",
+  "tar_src_dir": "toolchain/win_x86",
+  "url": "https://storage.googleapis.com/nativeclient-archive2/x86_toolchain/r13014/toolchain_win_x86.tar.bz2"
+}
