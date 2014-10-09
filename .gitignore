@@ -17,6 +17,7 @@
 *.pdb
 !src/sandbox/**/*.pdb
 *.vcxproj
+*.sln
 *.filters
 /src/out/Debug/
 /src/out/Release/
